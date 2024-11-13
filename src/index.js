@@ -1,4 +1,4 @@
-import TodoItem from "./TodoItem";
+import Task from "./Task";
 
-const todo = new TodoItem('task 1', 'a type of task', '02/11/2001', 1);
-console.log(todo.getDetails());
+const task = new Task ('task 1', 'a type of task', '02/11/2001', 1);
+console.log(task.getDetails());
